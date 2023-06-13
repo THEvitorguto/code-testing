@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    animation: backgroud 5s infinite 
+    }
+
+@keyframes backgroud {
+    0% {background-color: wheat;}
+    25% {background-color: lightgray;}
+    50% {background-color: wheat;}
+    75% {background-color: lightgray;}
+    100% {background-color: wheat;}
+}
+
+.img{
+    height: 300px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 32%;
+    align-items: center;
+}
+
+.bolina{
+    position: relative;
+    animation: bolina 3s ease ;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 44%;
+    margin-top: 30px;
+    
+}
+
+@keyframes bolina {
+    0% {transform: translate(0px,150px)};
+    25% {border-radius:40%; transform:translate(0px,160px)};
+    50% {border-radius:30%;transform: translate(0px,170px)};
+    75% {border-radius:15%;transform: translate(0px,160px)};
+    100% {border-radius:0%;transform: translate(0px,150px)};
+}
