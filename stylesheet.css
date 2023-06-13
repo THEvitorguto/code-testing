@@ -1,0 +1,79 @@
+body {
+    background-color:lightgray;
+    width: 820px;
+    height: 600px;
+    margin: 5px;
+
+}
+div {
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    animation: movimento 7s linear infinite;
+}
+
+@keyframes movimento {
+    0%{background-color: grey;}
+    15%{
+        margin :2px;
+        background-color: darkgray;
+        border-radius: 50px;
+        transform: translate(650px , 350px);
+    }
+    25%{
+        margin :2px;
+        background-color: black;
+        border-radius: 100px;
+        transform: translate(120px , 450px);
+    }
+    35%{
+        margin :2px;
+        background-color: darkgray;
+        border-radius: 50px;
+        transform: translate(500px , 200px);
+    }
+    45%{
+        margin :2px;
+        background-color: black;
+        border-radius: 100px;
+        transform: translate(200px , 120px);
+    }
+    50%{
+        margin :2px;
+        background-color: darkgray;
+        border-radius: 50px;
+        transform: translate(120px, 500px);
+    }
+    60%{
+        margin :2px;
+        background-color: black;
+        border-radius: 100px;
+        transform: translate(400PX , 250px);
+    }
+    80%{
+        margin :2px;
+        background-color: darkgray;
+        border-radius: 50px;
+        transform: translate(560px , 530px);
+    }    
+    100%{
+        margin :2px;
+        background-color: grey;
+        border-radius: 100px;
+        transform: translate(0px , 0px);
+    }
+             
+}
+a {
+    text-decoration: none;
+    color : rgb(176, 88, 88);
+}
+
+button {
+    border-radius: 15px;
+}
